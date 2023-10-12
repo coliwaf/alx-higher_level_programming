@@ -3,13 +3,15 @@ if __name__ == "__main__":
     import sys
 
     myLen = len(sys.argv) - 1
+    vocab = 'argument'
+    symbol = '.'
 
-    if myLen == 0:
-        print("{} arguments.".format(myLen))
-    elif myLen > 1:
-        print("{} arguments.".format(myLen))
-        for i in range(1, myLen + 1):
-            print("{}: {}".format(i, sys.argv[i]))
-    else:
-        print("{} argument".format(myLen))
-        print("{}: {}".format(myLen, sys.argv[1]))
+    if myLen > 1 or myLen == 0:
+        vocab = 'arguments'
+    if myLen == 1 or myLen > 1:
+        symbol = ':'
+
+    print("{:d} {:s}{:s}".format(myLen, vocab, symbol))
+
+    for i in range(1, myLen + 1):
+        print("{:d}: {:s}".format(i, sys.argv[i]))
