@@ -8,7 +8,7 @@ def magic_calculations(a, b):
         c = add(a, b)
 
         for i in range(4, 6):
-            c = (i, c)
+            c = (c, i)
         return (c)
 
     else:
