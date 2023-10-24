@@ -13,3 +13,4 @@ def magic_calculations(a, b):
 
     else:
         return (sub(a, b))
+    return 0
