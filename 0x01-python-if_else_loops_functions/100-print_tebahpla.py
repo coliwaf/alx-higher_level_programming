@@ -2,7 +2,7 @@
 
 
 i = 122
-while i >96:
+while i > 96:
     c = 0
     if i % 2 != 0:
         i -= 32
