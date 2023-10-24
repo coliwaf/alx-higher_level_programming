@@ -14,7 +14,7 @@ if __name__ == "__main__":
             }
 
     if argc != 4:
-        print ('Usage: {} <a> <operator> <b>'.format(sys.argv[0]))
+        print('Usage: {} <a> <operator> <b>'.format(sys.argv[0]))
         sys.exit(1)
 
     if sys.argv[2] not in list(funcs.keys()):
@@ -23,7 +23,7 @@ if __name__ == "__main__":
 
     a = int(sys.argv[1])
     b = int(sys.argv[3])
-    
+
     func = funcs[sys.argv[2]]
     res = func(a, b)
 
