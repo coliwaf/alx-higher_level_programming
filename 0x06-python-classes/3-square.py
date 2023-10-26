@@ -24,5 +24,4 @@ class Square:
         
         Returns: size of the square
         """
-
         return self.__size ** 2
