@@ -3,7 +3,7 @@
 
 
 class LockedClass:
-    """ 
+    """
     Prevents the user from dynamically creating new instance attrbutes
     """
 
