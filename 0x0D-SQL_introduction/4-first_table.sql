@@ -1,2 +1,2 @@
--- Create a table called "first_table" in current database
-CREATE TABLE IF NOT EXITS first_table (id INT, name VARCHAR(256));
+-- Creates a table named "first_table" in the current db
+CREATE TABLE IF NOT EXISTS first_table (id INT, name VARCHAR(255));
