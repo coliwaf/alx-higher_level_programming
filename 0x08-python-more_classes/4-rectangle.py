@@ -78,8 +78,8 @@ class Rectangle:
             rect += "\n" + rec_width
         return (rect)
 
-    def __repr_(self):
+    def __repr__(self):
         """Recreates a new instance using eval() and returns
         a string representation of the rectangle
         """
-        return ("Rectagle({:d}, {:d})".format(self.width, self.height))
+        return ("Rectangle({:d}, {:d})".format(self.width, self.height))
