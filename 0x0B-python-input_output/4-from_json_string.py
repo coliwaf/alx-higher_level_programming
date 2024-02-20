@@ -5,7 +5,7 @@ Module defines a json-to-object method
 import json
 
 
-def from_json_string(my_str)):
+def from_json_string(my_str):
     """
     Returns a Python Obj of a Json string
     """
