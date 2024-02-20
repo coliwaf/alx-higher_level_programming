@@ -31,7 +31,7 @@ class Student:
         """
 
         if attr is not None:
-            response = {k: self.__dict__[k] for k in self.__dict__.keys()\
-                    & attr}
+            response = {k: self.__dict__[k] for k in self.__dict__.keys()
+                        & attr}
             return response
         return self.__dict__
